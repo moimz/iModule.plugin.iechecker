@@ -18,7 +18,7 @@
 		"core":"3.0.0"
 	},
 	"language":"ko",
-	"admin":false,
+	"admin":true,
 	"configs":{
 		"templet":{
 			"type":"templet",
@@ -41,7 +41,7 @@
 		}
 	},
 	"databases":{
-		"iechecker_log_table":{
+		"plugin_iechecker_log_table":{
 			"columns":{
 				"time":{
 					"type":"int",
