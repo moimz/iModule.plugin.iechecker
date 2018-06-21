@@ -1,0 +1,43 @@
+{
+	"id":"com.moimz.imodule.plugin.iechecker",
+	"icon":"fa-internet-explorer",
+	"title":{
+		"ko":"IE버전확인"
+	},
+	"version":"1.0.0",
+	"description":{
+		"ko":"구버전 IE 브라우져를 확인하여 특정 IE버전 이하일 경우 홈페이지 접속을 차단하고 브라우져 업데이트 메세지를 출력합니다."
+	},
+	"author":{
+		"name":"Arzz",
+		"email":"arzz@arzz.com"
+	},
+	"homepage":"https://www.imodule.kr",
+	"versionChecker":"http://www.moimz.com/ko/api/moimz/getLatest",
+	"dependencies":{
+		"core":"3.0.0"
+	},
+	"language":"ko",
+	"admin":false,
+	"configs":{
+		"templet":{
+			"type":"templet",
+			"default":"default"
+		},
+		"minimum":{
+			"type":"int",
+			"default":10
+		},
+		"logging":{
+			"type":"boolean",
+			"default":true
+		}
+	},
+	"targets":{
+		"core":{
+			"beforeDoLayout":[
+				"*"
+			]
+		}
+	}
+}
