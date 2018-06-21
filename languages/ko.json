@@ -1,0 +1,14 @@
+{
+	"admin":{
+		"configs":{
+			"form":{
+				"default_setting":"기본설정",
+				"templet":"템플릿",
+				"minimun":"IE최소버전",
+				"minimun_help":"홈페이지 접속이 가능한 IE의 최소허용버전을 선택하여 주십시오.",
+				"logging":"로그사용",
+				"logging_help":"IE최소버전 이하로 접속한 사용자의 로그를 기록합니다."
+			}
+		}
+	}
+}
