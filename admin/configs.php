@@ -17,7 +17,7 @@ new Ext.form.Panel({
 	id:"PluginConfigForm",
 	border:false,
 	bodyPadding:10,
-	width:600,
+	width:700,
 	fieldDefaults:{labelAlign:"right",labelWidth:100,anchor:"100%",allowBlank:false},
 	items:[
 		new Ext.form.FieldSet({

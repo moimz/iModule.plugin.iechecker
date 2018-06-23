@@ -1,0 +1,27 @@
+{
+	"title":{
+		"ko":"IE버전확인 기본템플릿"
+	},
+	"version":"3.0.0",
+	"author":{
+		"name":"Arzz",
+		"email":"arzz@arzz.com"
+	},
+	"homepage":"https://www.imodule.kr",
+	"language":"ko",
+	"styles":[
+		"/styles/style.css"
+	],
+	"configs":{
+		"message":{
+			"title":{
+				"ko":"기본메세지"
+			},
+			"help":{
+				"ko":"허용되는 최소버전보다 낮은 버전으로 사이트접속시 보일 기본메세지를 입력하여 주십시오.<br>{VERSION} : 사용자 브라우저 버전<br>{MINIMUM} : 최소버전"
+			},
+			"type":"textarea",
+			"default":"이 사이트는 인터넷 익스플로너 {MINIMUM} 이상에서 정상적으로 사용하실 수 있습니다.\n현재 사용중인 브라우저의 버전은 인터넷 익스플로너 {VERSION} 으로 아래의 안내에 따라 최신 브라우저로 업데이트 하여 주시기 바랍니다."
+		}
+	}
+}
