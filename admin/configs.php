@@ -1,6 +1,6 @@
 <?php
 /**
- * 이 파일은 iModule IE버전확인플러그인 일부입니다. (https://www.imodule.kr)
+ * 이 파일은 iModule IE버전확인플러그인 일부입니다. (https://www.imodules.io)
  *
  * 플러그인 환경설정 패널을 가져온다.
  * 

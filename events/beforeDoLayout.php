@@ -1,6 +1,6 @@
 <?php
 /**
- * 이 파일은 iModule IE버전확인 플러그인의 일부입니다. (https://www.imodule.kr)
+ * 이 파일은 iModule IE버전확인 플러그인의 일부입니다. (https://www.imodules.io)
  *
  * 특정 IE 버전이하일 경우 사이트 접근을 차단하고 브라우저 업데이트 안내페이지를 출력합니다.
  * 
